@@ -12,7 +12,7 @@ with open('label_encoder.pkl', 'rb') as f:
     le = pickle.load(f)
 
 # App title
-st.title("👶👩🧓 Age Group Prediction from Face Image")
+st.title("Age Group Prediction from Face Image")
 st.write("Upload a face image to predict the person's age group.")
 
 # File uploader
